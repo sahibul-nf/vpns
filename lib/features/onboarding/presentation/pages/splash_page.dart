@@ -20,7 +20,10 @@ class SplashPage extends StatelessWidget {
                 Image.asset("assets/bg-circles.png"),
                 Padding(
                   padding: const EdgeInsets.only(top: 70),
-                  child: Image.asset("assets/logo.png"),
+                  child: Image.asset(
+                    "assets/logo.png",
+                    width: 130,
+                  ),
                 ),
               ],
             ),
